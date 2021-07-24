@@ -1,10 +1,10 @@
 import os
-import cv2
+#import cv2
 import torchvision.transforms as transforms
-import torch
+#import torch
 from torch.utils.data import Dataset
 from skimage import io
-from PIL import Image
+#from PIL import Image
 from glob import glob
  
 
