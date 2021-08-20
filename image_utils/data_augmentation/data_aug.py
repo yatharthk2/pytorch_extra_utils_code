@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 trans = transforms.Compose([
     transforms.ToPILImage(),
     transforms.Resize((256,256)),
-    #transforms.RandomCrop((224,224)),
+     #transforms.RandomCrop((224,224)),
     #transforms.ColorJitter(brightness = 0.3),
     #transforms.RandomRotation(degrees = 45) , 
     transforms.RandomVerticalFlip(p=0.5),
